@@ -1,6 +1,6 @@
 # Mocha & CoffeeScript Boilerplate
 
-This fork of the [mocha-coffeescript-browser-boilerplate](https://github.com/quartzmo/mocha-coffeescript-browser-boilerplate) (provided by @quartzmo) intends to allow for both Command Line and Browser usage of [Mocha](http://visionmedia.github.com/mocha/) testing framework in a single approach.
+This fork of the [mocha-coffeescript-browser-boilerplate](https://github.com/quartzmo/mocha-coffeescript-browser-boilerplate) (provided by @quartzmo) intends to allow for both Command Line and Browser usage of [Mocha](https://mochajs.org/) testing framework in a single approach.
 
 This is attempted by adding additional boilerplate code to initiate a platform agnostic global variable and a simple existential check for the [Node.js](http://nodejs.org/) require method:
 
@@ -37,7 +37,7 @@ If anyone has an idea on how to best approach solving this using NPM package.jso
 
 ## Via mocha-coffeescript-browser-boilerplate:
 
-A minimalistic boilerplate for a browser-based CoffeeScript project that is tested with [visionmedia/mocha](http://visionmedia.github.com/mocha).
+A minimalistic boilerplate for a browser-based CoffeeScript project that is tested with [visionmedia/mocha](https://mochajs.org/).
 Uses Chai instead of Should for browser compatibility.
 
 Requires CoffeeScript's `coffee` executable in path for make compilation. CoffeeScript, NPM, and Node are **not** required for the browser-based test run.
